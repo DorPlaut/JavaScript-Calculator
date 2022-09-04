@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font aowsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- fonts -->
+    <link href="http://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+  </head>
+  <body>
+    <!-- calc main -->
+    <div class="claculator"> <p class="credit">Build by <a target="_blank" href="https://dor-plaut-home-page.netlify.app/" > Dor Plaut </a></p>
+      <div class="main-container">
+      <!-- screen -->
+      <div class="result-container final-screen" id="display">
+        <h1 class="result"></h1>
+        <h1 class="calculate"></h1>
+      </div>
+      <div class="screen-container final-screen" >
+        <h1 class="screen"></h1>
+      </div>
+      <!-- buttons -->
+      <div class="all-btn">
+      <div class="action-upper">
+        <button class="btn clear-final actionBtn" id="clear">
+          <i class="fa-solid fa-c"></i>
+        </button>
+        <button class="btn clear-screen actionBtn">
+          <i class="fa-solid fa-c"></i>
+          <i class="fa-solid fa-e"></i>
+        </button>
+        <button class="btn delete actionBtn">
+          <i class="fa-solid fa-backward-step"></i> 
+        </button>
+        <button class="btn divide actionBtnSide" id="divide">
+          <i class="fa-solid fa-divide"></i>
+        </button>
+      </div>
+      <div class="btn-container">
+        <div class="numbers">
+          <button class="btn btn1 numBtn" id="one">1</button>
+          <button class="btn btn2 numBtn" id="two">2</button>
+          <button class="btn btn3 numBtn" id="three">3</button>
+          <button class="btn btn4 numBtn" id="four">4</button>
+          <button class="btn btn5 numBtn" id="five">5</button>
+          <button class="btn btn6 numBtn" id="six">6</button>
+          <button class="btn btn7 numBtn" id="seven">7</button>
+          <button class="btn btn8 numBtn" id="eight">8</button>
+          <button class="btn btn9 numBtn" id="nine">9</button>
+          
+          <button class="btn plusMinus actionBtn"><i class="fa-solid fa-plus-minus"></i></button>
+          <button class="btn btn0 numBtn" id="zero">0</button>
+          <button class="btn pointBtn numBtn" id="decimal">.</button>
+        </div>
+        <div class="actions">
+          <button class="btn times actionBtnSide" id="multiply">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button class="btn minus actionBtnSide" id="subtract">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <button class="btn plus actionBtnSide" id="add">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button class="btn equel actionBtn" id="equals">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+<!-- JS -->
+    <script src="./app.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>
